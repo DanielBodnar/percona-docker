@@ -6,7 +6,7 @@ RUN groupadd -r mongodb && useradd -r -g mongodb mongodb
 RUN rpmkeys --import https://www.percona.com/downloads/RPM-GPG-KEY-percona
 
 ARG PSMDB_VERSION
-ENV PSMDB_VERSION ${PSMDB_VERSION:-3.0.8}
+ENV PSMDB_VERSION ${PSMDB_VERSION:-3.0.10}
 
 RUN yum install -y http://www.percona.com/downloads/percona-release/redhat/0.1-3/percona-release-0.1-3.noarch.rpm
 RUN yum install -y which Percona-Server-MongoDB-${PSMDB_VERSION}
