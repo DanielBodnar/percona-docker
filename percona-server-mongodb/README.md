@@ -10,7 +10,7 @@ For more information and related downloads for Percona Server and other Percona 
 
 These are the only official Percona Server for MongoDB Docker images, created and maintained by the Percona team. The image has the Percona Fractal Tree based storage engine `PerconaFT`, `RocksDB` and `WiredTiger` enabled. The available versions are:
 
-    Percona Server for MontoDB 3.0.8 (tag: 3.0)
+    Percona Server for MongoDB 3.0.8 (tag: 3.0)
 
 Images are updated when new releases are published.
 
